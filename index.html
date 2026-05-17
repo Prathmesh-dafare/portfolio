@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Prathmesh Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="window.scrollTo(0, 0)">
+    <!-- ========================= INTRO SCREEN ========================= -->
+    <div id="intro-screen">
+      <div class="bubble-container">
+        <div class="auto-bubble b1"></div>
+        <div class="auto-bubble b2"></div>
+        <div class="auto-bubble b3"></div>
+        <div class="auto-bubble b4"></div>
+        <div class="auto-bubble b5"></div>
+      </div>
+
+      <div class="intro-content">
+        <h1 class="intro-title">Welcome</h1>
+        <p class="intro-text">Prathmesh Portfolio</p>
+        <button id="start-btn">Start Experience</button>
+      </div>
+    </div>
+
+    <!-- ========================= MAIN CONTENT ========================= -->
+    <div id="main-content">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="logo">Prathmesh</div>
+
+        <!-- Hamburger icon (mobile) -->
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#objective">Objective</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hero -->
+      <section id="home" class="hero">
+        <div class="hero-content fade-up">
+          <div class="hero-image">
+            <img src="images/profile.png" alt="Profile Image" />
+          </div>
+
+          <h1 class="animated-text">Prathmesh Dafare</h1>
+
+          <h5>
+            dafharesuresh@gmail.com<br />
+            +91 7666119520<br />
+            <a
+              href="https://www.linkedin.com/in/prathmesh-dafare-b38561329?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </h5>
+
+          <h2>UnderGraduate Student</h2>
+
+          <p>
+            Combining logic, creativity, and modern technologies to build web
+            experiences.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary-btn">View Projects</a>
+            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="circle one"></div>
+        <div class="circle two"></div>
+        <div class="circle three"></div>
+      </section>
+
+      <!-- Objective -->
+      <section id="objective" class="section fade-up">
+        <h2 class="section-title">Career Objective</h2>
+
+        <div class="glass-card">
+          <p>
+            Detail-oriented and motivated B.Tech undergraduate seeking an
+            entry-level opportunity to apply strong fundamentals in engineering,
+            problem-solving, and analytical thinking in a professional
+            environment. Aiming to contribute to organizational goals through
+            continuous learning, adaptability, and effective collaboration while
+            enhancing technical expertise and practical experience in real-world
+            applications.
+          </p>
+          <p>🌐 &nbsp; Building modern and dynamic websites</p>
+          <p>📱 &nbsp; Mobile-friendly design approach</p>
+          <p>✨ &nbsp; Interested in animations and smooth interactions</p>
+          <p>🔧 &nbsp; Continuously improving development skills</p>
+          <p>🎯 &nbsp; Dedicated to writing clean and efficient code</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section fade-up skills-section">
+        <div class="skills-animation">
+          <div class="ball ball1">
+            <img src="images/react.png" alt="React" />
+          </div>
+          <div class="ball ball2">
+            <img src="images/js.png" alt="JavaScript" />
+          </div>
+          <div class="ball ball3">
+            <img src="images/python.png" alt="Python" />
+          </div>
+          <div class="ball ball4">
+            <img src="images/node.png" alt="Node.js" />
+          </div>
+          <div class="ball ball5"><img src="images/cpp.png" alt="C++" /></div>
+        </div>
+
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, React, Tailwind CSS</p>
+          </div>
+          <div class="skill-card">
+            <h3>Backend</h3>
+            <p>Node.js, Express.js, MongoDB, Redis, MySQL, SQLite</p>
+          </div>
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <p>C/C++, Java, Python, HTML5</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <p>Git, VS Code, GitHub</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="section fade-up">
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>
+              <span>Bachelor of Computer Science</span>
+              <span class="right-text">CGPA</span>
+            </h3>
+            <p>JD College of Engineering and Management</p>
+            <div class="timeline-row">
+              <span>2024 – 2028</span>
+              <span>9.85</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <h3>
+              <span>HSC</span>
+              <span class="right-text">Percentage</span>
+            </h3>
+            <p>Lokmanya Junior College Warora</p>
+            <div class="timeline-row">
+              <span>2022 – 2024</span>
+              <span>81%</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <h3>
+              <span>SSC</span>
+              <span class="right-text">Percentage</span>
+            </h3>
+            <p>Lokmanya Vidyalaya Warora</p>
+            <div class="timeline-row">
+              <span>2021 – 2022</span>
+              <span>78%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section fade-up">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project1.png" alt="QR Code Generator" />
+            </div>
+            <div class="project-content">
+              <h3>QR Code Generator and Scanner</h3>
+              <p>
+                Developed an application to generate and scan QR codes for
+                secure and quick data sharing.
+              </p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-buttons">
+                <a href="#">GitHub</a>
+                <a href="#">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project2.png" alt="Password Encryption" />
+            </div>
+            <div class="project-content">
+              <h3>Password Encryption System</h3>
+              <p>
+                Developed a secure password storage system using encryption and
+                hashing techniques.
+              </p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-buttons">
+                <a href="#">GitHub</a>
+                <a href="#">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project3.png" alt="Currency Converter" />
+            </div>
+            <div class="project-content">
+              <h3>Currency Conversion Tool</h3>
+              <p>
+                Converts currencies accurately with real-time exchange rate
+                information.
+              </p>
+              <div class="tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-buttons">
+                <a href="#">GitHub</a>
+                <a href="#">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section fade-up">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contact-form" class="contact-form">
+          <input
+            type="hidden"
+            name="access_key"
+            value="0bfe75d0-e253-4aa1-98ec-8671aae7defd"
+          />
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <p id="success-msg"></p>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>© 2026 Prathmesh Portfolio</p>
+      </footer>
+    </div>
+    <!-- end #main-content -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
